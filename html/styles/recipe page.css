@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21de9f;
+    padding: 8px 12px;
+    color: white;
+}
+
+.navbar__logo i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.navbar__menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar__menu li {
+    margin-right: 20px;
+}
+
+/* Content styles */
+.content {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.chicken-text {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px; /* 첫 번째 줄과 두 번째 줄 사이의 여백 설정 */
+}
+
+.box {
+    width: calc(12% - 12px);
+    height: calc(12vw - 12px); /* 한 줄에 5개씩 배치하기 위해 너비 설정 */
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box2-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px; /* 첫 번째 줄과 두 번째 줄 사이의 여백 설정 */
+}
+
+.box2 {
+    width: calc(12% - 12px);
+    /*height: calc(12vw - 12px);*/
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box3-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px; /* 첫 번째 줄과 두 번째 줄 사이의 여백 설정 */
+}
+
+.box3 {
+    width: calc(12% - 12px);
+    height: calc(12vw - 12px); /* 한 줄에 5개씩 배치하기 위해 너비 설정 */
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box4-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px; /* 첫 번째 줄과 두 번째 줄 사이의 여백 설정 */
+}
+
+.box4 {
+    width: calc(12% - 12px);
+    /*height: calc(12vw - 12px);*/
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
